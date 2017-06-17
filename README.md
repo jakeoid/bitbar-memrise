@@ -2,20 +2,14 @@
 
 This application for Bitbar allows for you to see on the Menubar of your mac the amount of that are available for you to water on Memrise. The application is lightweight (I hope) and is something that should be easily installable.
 
+What is BitBar? BitBar is a Mac application that allows for you to create programs in Ruby, Python or Shell and display informtion on your Menubar without requiring to create an Mac Application for it. Its very lightweight and versatile, check it [here](https://getbitbar.com/).
+
 # Install
-
-## Short
-
-[A one click installation of this plugin can be done by clicking here](https://github.com/)
-
-**Note** After installing this plugin you will have to setup the plugins information, see below.
-
-## Long
 
 1. Clone/Fork the repository.
 2. Drag `memrise.py` to your `bitbar_plugins` folder.
 3. Open Bitbar and press CMD + R.
-4. **NOTE** You must follow setup, instructions below.
+4. **NOTE** [You must follow setup, instructions below.](#setup)
 
 # Contribute
 
@@ -35,7 +29,7 @@ You must have logged into Memrise prior to the setup of this script or the infor
 3. Inside of `All Cookies and Data` search for `memrise`
 4. Grab the `CSRF` & `sessionid` values from `www.memrise.com` **NOT** `memrise.com`
 5. Substitute those two values into the memrise.py script.
-6. Poke around on endpoints until you find your COURSEID, a list of which can be found [here](https://github.com/carpiediem/memrise-enhancement-suite/wiki/Unofficial-Documentation-for-the-Memrise-API#apicourseget)
+6. Poke around on endpoints until you find your COURSEID, a list of which can be found [here](https://github.com/carpiediem/memrise-enhancement-suite/wiki/Unofficial-Documentation-for-the-Memrise-API)
 
 Theres no easy way to (or I was unable to at the time that I created this script) find your COURSEID that I could find quickly, the one however for Japanese i'm aware is `665`. 
 
