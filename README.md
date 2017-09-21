@@ -4,6 +4,11 @@ This application for Bitbar allows for you to see on the Menubar of your mac the
 
 What is BitBar? BitBar is a Mac application that allows for you to create programs in Ruby, Python or Shell and display informtion on your Menubar without requiring to create an Mac Application for it. Its very lightweight and versatile, check it [here](https://getbitbar.com/).
 
+**WARNING**
+
+Using a script like this, without a timeout ended up having a `Login Required` show up everytime I attempt to ping via this given script. This may be due to the lack of a client requesting the content, yet I dont use Memrise as often as I once did and this script no longer is being maintained by me.
+
+
 # Install
 
 1. Clone/Fork the repository.
